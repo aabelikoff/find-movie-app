@@ -1,4 +1,4 @@
-export default class Pagination {
+class Pagination {
   constructor(container, maxViewBtn, countFilms = 2) {
     this.container = container;
     this.maxCount = null; //max quantity of found movies

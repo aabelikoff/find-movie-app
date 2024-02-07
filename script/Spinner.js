@@ -1,4 +1,4 @@
-export default class Spinner {
+class Spinner {
   showSpinner() {
     this.spinnerContainer = document.createElement("div");
     this.spinnerContainer.classList.add("spinnerContainer");

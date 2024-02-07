@@ -1,8 +1,4 @@
-import Spinner from "./Spinner.js";
-import { sendRequest, movieUrl } from "./request.js";
-import Pagination from "./Pagination.js";
-
-export default class ShowMovies {
+class ShowMovies {
   constructor(container, form, moviesElem, detailsElem, searchInfoElem, countFilms) {
     this.form = form;
     this.moviesElem = moviesElem;

@@ -1,5 +1,3 @@
-import ShowMovies from "./ShowInfo.js";
-
 const form = document.forms["movieForm"];
 const movies = document.querySelector(".movies");
 const details = document.querySelector(".details");

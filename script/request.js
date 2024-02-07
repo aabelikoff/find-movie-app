@@ -20,5 +20,3 @@ function sendRequest(url = movieUrl, callback, parametresObj) {
     }
   };
 }
-
-export { movieUrl, sendRequest };
