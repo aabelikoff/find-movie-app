@@ -197,7 +197,7 @@ label > select {
 /* --- Adaptivity --- */
 @media screen and (max-width: 720px) {
   .paginationBlock {
-    max-width: 90%;
+    max-width: 100%;
   }
   .bigPosterContainer {
     width: 50%;
