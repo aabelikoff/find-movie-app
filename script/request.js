@@ -1,4 +1,4 @@
-const movieUrl = `http://www.omdbapi.com/?`;
+const movieUrl = `https://www.omdbapi.com/?`;
 const apikey = "apikey=2858c7e4";
 
 function sendRequest(url = movieUrl, callback, parametresObj) {
