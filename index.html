@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/spinner.css" />
+    <script src="./script/request.js" type="module"></script>
+    <script src="./script/Pagination.js" type="module"></script>
+    <script src="./script/showInfo.js" type="module"></script>
+    <script src="./script/Spinner.js" type="module"></script>
+    <script src="./script/main.js" type="module"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">Search movie</h2>
+      <form name="movieForm">
+        <div class="searchBody">
+          <label for="title">Title:<input type="text" name="s" id="title" /></label>
+          <label for="type"
+            >Type:
+            <select name="type" id="type">
+              <option value="movie">Movie</option>
+              <option value="series">Series</option>
+              <option value="episode">Episode</option>
+            </select>
+          </label>
+          <button type="submit" class="btn">Search</button>
+        </div>
+      </form>
+      <h2 class="title" id="moviesCount"></h2>
+      <div class="movies"></div>
+      <div class="details"></div>
+    </div>
+  </body>
+</html>
